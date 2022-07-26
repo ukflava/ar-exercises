@@ -11,3 +11,4 @@ puts "----------"
 
 p Store.sum("annual_revenue")
 p Store.sum("annual_revenue")/Store.all.count
+p Store.where('annual_revenue >= ?', 1000000).count
