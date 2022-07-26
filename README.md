@@ -46,7 +46,7 @@ You can work with the models with irb by running
     irb -r './setup.rb'  
 
 ## Exercises
-
+bundle exec ruby exercises/exercise_1.rb
 ### Exercise 1: Create 3 stores
 
 1. Use Active Record's `create` class method multiple times to create 3 stores in the database:
